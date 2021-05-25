@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+    background-size: cover;
+    background position: center
+    background: no-repeat;
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+   .h{
+    display: flex;
+    background: #00ced1;
+    align-items: center; 
+   }
+   .h1{
+       margin:0 auto;
+   }
+    /*.h{
+     background: #00ced1;
+    text-align: center;
+    font-size: 38px;
+    padding: 20px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Times New Roman;
+}*/
+.marquee{
+      background:  #afeeee;
+    font-size: 30px;
+    padding:10px 0px;
+     font-weight: bold;
+     display: block;
+
+    }
+.navbar{
+    display: flex;
+    background: #ffc0cb;
+    border-bottom: 2px solid red;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    height: 80px;
+
+}
+.logo{
+    width: 100px; 
+    margin-left: 20px;
+}
+.menu{
+   
+}
+.menu li{
+   display: inline-block;
+ margin: 5px 10px;
+}
+.menu li:hover{
+    background-color: blue;
+    padding: 10px 14px;
+}
+
+.menu li a{
+    color: #000;
+    text-decoration: none;
+    font-family: calibri;
+    text-transform: uppercase;
+    font-size: 20px;
+
+}
+
+.menu li a:hover {
+  background: #00ff51;
+  color: #fff;
+
+}
+.search{
+    padding: 15px;
+}
+input[type=text]{
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    font-family: sans-serif;
+    background: #f0f8ff;
+    text-align: center;
+}
+.button{
+    float: right;
+    background:#90ee90;
+    color: #000000;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    position: relative;
+    padding:9px;
+    font-family: sans-serif;
+}
+.drop-down{
+    display: inline;
+    position: relative;
+}
+.dropdown{
+    position: absolute;
+    top:30px;
+    right: 0px;
+    background:red;
+  text-align: left;
+  min-width: 100px;
+  display: none;
+
+}
+.dropdown a{
+    display: block;
+    text-decoration: none;
+}
+.drop-down:hover .dropdown{
+    display: block;
+}
