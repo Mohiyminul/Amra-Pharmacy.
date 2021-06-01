@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+	background:	#e0ffff;
+}
+.pd5{
+	background-color: #90ee90;
+	font-size: 22px;
+	text-align: center;
+	padding: 30px;
+	margin:auto;
+	border: 20px;
+	 border-top:2px solid black;	  
+}
+.pd6{
+	background-color:#ffe4e1;
+	font-size: 22px;
+	text-align: center;
+	padding: 49.5px;
+	margin:auto;
+	border: 20px;	
+	 border-top:2px solid black;  
+}
+.pd7{
+	background-color: #add8e6;
+	font-size: 22px;
+	text-align: center;
+	padding: 35px;
+	margin:auto;
+	border: 20px;	 
+	 border-top:2px solid black;
+	 border-bottom:  2px solid black;
+}

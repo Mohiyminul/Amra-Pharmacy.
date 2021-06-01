@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+	background:	white;
+}
+.pd10{
+	background-color: #add8e6;
+	font-size: 22px;
+	text-align: center;
+	padding: 50px;
+	margin:auto;
+	border: 20px;
+	 border:2px solid black;
+}
+.pd11{
+	background-color:#ffb6c1;
+	font-size: 22px;
+	text-align: center;
+	padding: 50px;
+	margin:auto;
+	border: 20px;
+	 border:2px solid black;
+}
+.pd12{
+	background-color:#90ee90;
+	font-size: 22px;
+	text-align: center;
+	padding: 76.5px;
+	margin:auto;
+	border: 20px;
+	 border:2px solid black;
+}

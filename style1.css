@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.body{
+	background:#f0f8ff;
+}
+.pd{
+	background:#ffebcd;
+	font-size: 25px;
+	padding: 30px;
+   border:2px solid black;;
+
+}
+.pd1{
+	background:#f0ffff;
+	font-size: 25px;
+	padding:30.5px;
+	border-radius: 0; 
+ border:2px solid black;
+}
+.pd2{
+	background:#90ee90;
+	font-size: 25px;
+	padding:40px;
+	text-align: center;
+ border:2px solid black;
+}
+

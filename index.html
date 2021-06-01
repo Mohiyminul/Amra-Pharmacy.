@@ -1,31 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
+ 
 	<title>Amra Pharmacy</title>
 	<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width= device-width initial-scale=1.0">
+  <meta http-equiv="X-UA-compatible" content="ie=edge">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 </head>
 <body class="body">
 	<div class="h">
 		<img src="aaa.png" alt="amra" class="logo">
 	<h1 class="h1">Amra Pharmacy
 	</h1>
+  <form action="/action_page.php" method="post">
+
+  <div class="container">
+    <input type="text" placeholder="Username" name="uname" required>
+
+    <input type="password" placeholder="Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+  </div>
+ 
+</form>
 	</div>  
 	<marquee class="marquee"> Welcome To Amra Pharmacy</marquee>
 	<div class="navbar">
 	<div class="navbar_links">
 		<ul class="menu">
-			<li><a href="#">Home</a></li>
-			<div class="drop-down">
-				<li><a href="#">Contact</a></li>
-				<div class="dropdown">
-				<a href="#">email</a>
-				<a href="#">facebook</a>
-				<a href="#">Number</a>
-			</div>
-			</div>
-			<li><a href="#">Services</a></li>
-			<li><a href="#">Time shedule</a></li>
-			<li><a href="#">About</a></li>
+			<li><a href="home.html">Home</a></li>
+
+				<li><a href="contact.html">Contact</a></li>
+			
+			<li><a href="service.html">Services</a></li>
+			<li><a href="time.html">Time shedule</a></li>
+			<li><a href="about.html">About</a></li>
 		</ul>
 	</div>
 	<form class="search">
@@ -33,6 +44,227 @@
 		<button class="button">Search</button>
 	</form>
 	</div>
+	<div class="slideshow-container">
 
+<div class="mySlides">
+  <div class="numbertext"></div>
+  <img src="adc.jpg">
+</div>
+
+<div class="mySlides">
+  <div class="numbertext"></div>
+  <img src="doctor.jpg">
+</div>
+
+<div class="mySlides">
+  <div class="numbertext"></div>
+  <img src="md.jpg">
+</div>
+<div class="mySlides">
+  <div class="numbertext"></div>
+  <img src="injec.jpg">
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+</div>
+	<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 4000); 
+}
+</script>
+<br>
+<div class="div">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3652.250317083056!2d90.38113671429664!3d23.73845149515115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b8b7d0524857%3A0x25e47dcd23624b66!2sDhanmondi%20Pharmacy!5e0!3m2!1sen!2sbd!4v1622197757301!5m2!1sen!2sbd"></iframe>
+<br><br>
+<p>
+	<br> <br>
+"Serving people is our main job and at the right time people can come to the aid of people and it is our responsibility and duty to provide medicine and all materials at the right time."
+<br> <br>
+Health Call Centre: 16263.
+<br> <br>
+Dial 16263 and get advised from Doctor about of diseases.
+<br> <br>
+The 999 Emergency Response Service is a free emergency service providing integrated medical and ambulance emergency services.
+</p>
+</div>
+<br><br>
+<div class="card">
+  <img src="napa.jpg" alt="napa">
+  <h1>Napa Extend</h1>
+  <p class="price">৳180.89</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="rex.jpg" alt="rex">
+  <h1>REX</h1>
+  <p class="price">৳80</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="rabe.jpg" alt="rabe">
+  <h1>Rabe 20</h1>
+  <p class="price">৳47(10 pc)</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="prov.jpg" alt="prov">
+  <h1>Proviten Gold</h1>
+  <p class="price">৳180</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="don.jpg" alt="don">
+  <h1>DON A-15</h1>
+  <p class="price">৳50.30(10 pc)</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="azma.jpg" alt="azma">
+  <h1>Azmasol</h1>
+  <p class="price">৳250</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="seclo.jpg" alt="seclo">
+  <h1>Seclo 40</h1>
+  <p class="price">৳60(10 pc)</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="cipro.jpg" alt="cipro">
+  <h1>Ciprocin 500</h1>
+  <p class="price">৳141(10 pc)</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="insulin.jpg" alt="insulin">
+  <h1>Insulin(0.5mm)</h1>
+  <p class="price">৳50(10 pc)</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="bandage.jpeg" alt="bandage">
+  <h1>Bandage</h1>
+  <p class="price">৳55</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="adovas.jpg" alt="adovas">
+  <h1>Adovas</h1>
+  <p class="price">৳65</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="boxol.jpg" alt="boxol">
+  <h1>Boxol</h1>
+  <p class="price">৳37.60</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="sofy.jpg" alt="sofy">
+  <h1>Sofy</h1>
+  <p class="price">৳191</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="hp.jpg" alt="hp">
+  <h1>Hydrogen Peroxide</h1>
+  <p class="price">৳50</p>
+  <p><button>Order</button></p>
+</div>
+
+<div class="card">
+  <img src="p.jpg" alt="p">
+  <h1>Panther</h1>
+  <p class="price">৳19</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="b.jpg" alt="b">
+  <h1>One Time Bandages</h1>
+  <p class="price">৳120</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="n.jpg" alt="n">
+  <h1>Nebulizer Machine</h1>
+  <p class="price">৳1400</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="mask.jpeg" alt="mask">
+  <h1>Face Mask</h1>
+  <p class="price">৳100</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="t.jpg" alt="t">
+  <h1>Tufnil</h1>
+  <p class="price">৳100(10 pc)</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="mask.jpeg" alt="mask">
+  <h1>Face Mask</h1>
+  <p class="price">৳100</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="bag.jpg" alt="bag">
+  <h1>Elec Hot Water Bag</h1>
+  <p class="price">৳800</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="ice.jpeg" alt="ice">
+  <h1>Ice Bag</h1>
+  <p class="price">৳400</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="h.jpg" alt="h">
+  <h1>Hand Bandage Bag</h1>
+  <p class="price">৳1300</p>
+  <p><button>Order</button></p>
+</div>
+<div class="card">
+  <img src="neck1.jpg" alt="neck">
+  <h1>Neck Bandage</h1>
+  <p class="price">৳1600</p>
+  <p><button>Order</button></p>
+</div>
+
+<div class="wrapper clear">
+<div class="footer-section">
+  <p class="p">Amra Pharmacy</p>
+  <i class="fas fa-phone-volume">:</i>
+  <p class="p1">Hot-line:999</p>
+   <i class="fas fa-envelope-open-text">:</i> 
+<p class="p2">amra.phrama@gmail.com</p>
+</div>
+</div>
 </body>
 </html>
